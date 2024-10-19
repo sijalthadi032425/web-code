@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thadi sijal - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        header nav ul li a {
+            color: #f9f9f9;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        #hero {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        #hero h2 span {
+            color: #f9d342;
+        }
+        .btn {
+            background-color: #f9d342;
+            color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        #about, #projects, #skills, #contact {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>thadi sijal - Web Developer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm <span>thadi sijal</span></h2>
+            <p>I build clean and responsive websites. Check out my work below.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Additional sections remain unchanged -->
+</body>
+</html>
